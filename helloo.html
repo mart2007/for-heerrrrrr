@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiiiiiiiiiiii</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff4e6;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #ffe4b5;
+      padding: 20px;
+      border-bottom: 5px solid #f9c89b;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #ff7f50;
+    }
+    .chikawa-image {
+      margin: 20px 0;
+    }
+    .chikawa-image img {
+      width: 200px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .letter {
+      margin: 20px;
+      padding: 20px;
+      background: #fff;
+      border: 2px dashed #ffb6c1;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 1.2em;
+      line-height: 1.6;
+      text-align: left;
+    }
+    footer {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #ffe4b5;
+      font-size: 0.9em;
+      color: #ff4500;
+    }
+    .music-buttons {
+      margin-top: 20px;
+    }
+    .music-buttons button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      margin: 5px;
+      background-color: #ffb6c1;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .music-buttons button:hover {
+      background-color: #ff7f50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi Hello Thank youu </h1>
+  </header>
+
+  <div class="chikawa-image">
+    <img src="image3.jpg" alt="image3.jpg">
+  </div>
+
+  <section class="letter">
+    <p>Hello! if you're reading this thank you so much! (please play the music hehe)</p>
+    <p>
+      I just want to let you know that i really like you.. i really do..if you ask what are the things i like about you.
+    </p>
+    <p>
+      maybe because its YOU? i really like your hair especially your bangs, and i like the way you talk and the way you laugh with your friends (katong naa mos jeep)
+    </p>
+    <p>
+      and ofcourse GRABI KA GWAPA SHEESH!!!. I made this as a way to express/say the things i want to say to you. It pains me nga dili nako maingon akong mga thoughts about saimo mangud hehehehe.
+    </p>
+    <p>
+    </p> I am not asking you to return my feelings for you. ing ani mangud ko mainlove hehehehe bitaw. kuan I know nga things are tough sometimes but always remember nga you're strong. i know in myself nga ikaw ang pinakamalakas nga babae sa buong mundo heheheehe 
+    <p>
+      Also if there are times na you want to talk with someone remember that i am always here for youu (ka wow) bitaw uy tinood na ayawg kaulaw sakoa. maulaw mangud kos imoa hehehehee. Don't be afraid to tell your problems to me and don't worry the things nga imong gipang ingon safe na sakoa promise mamatay man hehehahsdhsahd.
+    </p>
+    <p>
+      And I really want to get to know you. i hope that we can work out with that soonn HWEHSDh. bitaw oi knowing you made my life so good so fun and everything bitaw rag ing ana. you motivates me mangud everytime that i feel so down and mag myday rakag kalit dako na kaayu kog ngisi ana hehehehehehe pero real na.
+    </p>
+    <p>
+      You have no idea how much you mean to me. Thank you ha kay nisulod kas akoang life grabe ka unexpected. for all these years first time nako magka crush ug ing ani patay na patay ba. hAHAHAHSDHASdhjashdkashdkas
+    </p>
+    <p>
+      Thank you for taking your time reading this message or whatever you call this hHASdhsadhshdh
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Forever thankful for you.<br>
+      With all my love,<br>
+      Mart 
+    </p>
+  </section>
+
+  <footer>
+    <p>please give me a sign nga nabasa nmo huhuhehe</p>
+    <!-- Music Buttons -->
+    <div class="music-buttons">
+      <button onclick="playMusic()">Play Music 🎵</button>
+      <button onclick="stopMusic()">Stop Music ✋</button>
+    </div>
+  </footer>
+
+  <!-- Background Music -->
+  <audio id="background-music" loop>
+    <source src="NIKI - Take A Chance With Me (Lyrics).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    function playMusic() {
+      const music = document.getElementById('background-music');
+      music.play();
+    }
+
+    function stopMusic() {
+      const music = document.getElementById('background-music');
+      music.pause();
+      music.currentTime = 0; // Reset to the beginning
+    }
+  </script>
+</body>
+</html>
